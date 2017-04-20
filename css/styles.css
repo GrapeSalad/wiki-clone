@@ -1,0 +1,13 @@
+.left-navbar {
+  font-size: 12px;
+  border: 1px solid red;
+  margin: 0;
+}
+.left-navbar li {
+   list-style: none;
+}
+
+.left-navber img {
+  width: 80px;
+  height: 80px;
+}

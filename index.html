@@ -3,138 +3,177 @@
   <head>
     <meta charset="utf-8">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link rel="shortcut icon" href="img/wiki-icon.ico" />
     <title>Wikipedia, the free Clone</title>
   </head>
   <body>
-<!-- TOP NAVBAR WITH TABS -->
-    <div id="top-navbar">
-      <ul class="nav nav-tabs">
-        <li role="presentation" class="active"><a href="#">Main Page</a></li>
-        <li role="presentation"><a href="#">Talk</a></li>
-      </ul>
-
-      <ul class="nav nav-tabs">
-        <li role="presentation" class="active"><a href="#">Read</a></li>
-        <li role="presentation"><a href="#">View Source</a></li>
-        <li role="presentation"><a href="#">View History</a></li>
-      </ul>
-    </div>
+    <div class="container">
 <!-- LEFT SIDE NAVBAR  -->
-    <div id="left-navbar">
-      <img src="img/wiki-logo.jpeg" alt="STOLEN LOGO">
-      <ul>
-        <ul>
-          <li><a href="#">Main Page</a></li>
-          <li><a href="#">Contents</a></li>
-          <li><a href="#">Featured content</a></li>
-          <li><a href="#">Current events</a></li>
-          <li><a href="#">Random aritcle</a></li>
-          <li><a href="#">Donate to Wikipedia</a></li>
-          <li><a href="#">Wikipedia store</a></li>
-        </ul>
-        <ul>
-          <li><a href="#">Interaction</a></li>
-          <li><a href="#">Help</a></li>
-          <li><a href="#">About Wikipedia</a></li>
-          <li><a href="#">Community portal</a></li>
-          <li><a href="#">Recent changes</a></li>
-          <li><a href="#">Contact page</a></li>
-        </ul>
-        <ul>
-          <li><a href="#">Tools</a></li>
-          <li><a href="#">What links here</a></li>
-          <li><a href="#">Related changes</a></li>
-          <li><a href="#">Upload file</a></li>
-          <li><a href="#">Special pages</a></li>
-          <li><a href="#">Permanent link</a></li>
-          <li><a href="#">Page information</a></li>
-          <li><a href="#">Wikidata item</a></li>
-        </ul>
-        <ul>
-          <li><a href="#">Print/export</a></li>
-          <li><a href="#">Create a book</a></li>
-          <li><a href="#">Download as PDF</a></li>
-          <li><a href="#">Printable version</a></li>
-        </ul>
-        <ul>
-          <li><a href="#">In other projects</a></li>
-          <li><a href="#">Wikimedia Commons</a></li>
-          <li><a href="#">MediaWiki</a></li>
-          <li><a href="#">Meta-Wiki</a></li>
-          <li><a href="#">Wikispecies</a></li>
-          <li><a href="#">Wikibooks</a></li>
-          <li><a href="#">Wikidata</a></li>
-          <li><a href="#">Wikinews</a></li>
-          <li><a href="#">Wikiquote</a></li>
-          <li><a href="#">Wikisource</a></li>
-          <li><a href="#">Wikiversity</a></li>
-          <li><a href="#">Wikivoyage<</a>/li>
-        </ul>
-        <ul>
-          <li><a href="#">Languages</a></li>
-        </ul>
-      </ul>
-    </div>
+    <div class="container">
+      <div class="row">
+        <div class=:"col-md-2">
+          <div class="left-navbar">
+            <img src="img/wiki-logo.jpeg" alt="STOLEN LOGO">
+            <ul>
+              <ul>
+                <li><a href="#">Main Page</a></li>
+                <li><a href="#">Contents</a></li>
+                <li><a href="#">Featured content</a></li>
+                <li><a href="#">Current events</a></li>
+                <li><a href="#">Random aritcle</a></li>
+                <li><a href="#">Donate to Wikipedia</a></li>
+                <li><a href="#">Wikipedia store</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">Interaction</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">About Wikipedia</a></li>
+                <li><a href="#">Community portal</a></li>
+                <li><a href="#">Recent changes</a></li>
+                <li><a href="#">Contact page</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">Tools</a></li>
+                <li><a href="#">What links here</a></li>
+                <li><a href="#">Related changes</a></li>
+                <li><a href="#">Upload file</a></li>
+                <li><a href="#">Special pages</a></li>
+                <li><a href="#">Permanent link</a></li>
+                <li><a href="#">Page information</a></li>
+                <li><a href="#">Wikidata item</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">Print/export</a></li>
+                <li><a href="#">Create a book</a></li>
+                <li><a href="#">Download as PDF</a></li>
+                <li><a href="#">Printable version</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">In other projects</a></li>
+                <li><a href="#">Wikimedia Commons</a></li>
+                <li><a href="#">MediaWiki</a></li>
+                <li><a href="#">Meta-Wiki</a></li>
+                <li><a href="#">Wikispecies</a></li>
+                <li><a href="#">Wikibooks</a></li>
+                <li><a href="#">Wikidata</a></li>
+                <li><a href="#">Wikinews</a></li>
+                <li><a href="#">Wikiquote</a></li>
+                <li><a href="#">Wikisource</a></li>
+                <li><a href="#">Wikiversity</a></li>
+                <li><a href="#">Wikivoyage<</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">Languages</a></li>
+              </ul>
+            </ul>
+          </div>
+        </div>
+      </div>
+    <!-- TOP NAVBAR WITH TABS -->
+      <div class="row">
+        <div class="col-md-10">
+          <div class="top-navbar">
+            <ul class="nav nav-tabs">
+              <li role="presentation" class="active"><a href="#">Main Page</a></li>
+              <li role="presentation"><a href="#">Talk</a></li>
+            </ul>
+
+            <ul class="nav nav-tabs">
+              <li role="presentation" class="active"><a href="#">Read</a></li>
+              <li role="presentation"><a href="#">View Source</a></li>
+              <li role="presentation"><a href="#">View History</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
     <!-- Welcome to Wikipedia Jumbotron-->
-    <div id="jumbo">
-      <h1>Welcome to <a href="#">Wikipedia</a> </h1>
-        <p>the <a href="#">free encyclopedia</a> that <a href="#">anyone can edit.</a>
-        </p>
-        <p><a href="#">5,388,425</a> articles in <a href="#">English</a>
-        </p>
-      <ul>
-        <li><a href="#">Arts</a></li>
-        <li><a href="#">Biography</a></li>
-        <li><a href="#">Geography</a></li>
-        <li><a href="#">History</a></li>
-        <li><a href="#">Mathematics</a></li>
-        <li><a href="#">Science</a></li>
-        <li><a href="#">Society</a></li>
-        <li><a href="#">Technology</a></li>
-        <li><a href="#">All portals</a></li>
-      </ul>
-    </div>
-<!-- BODY COLUMNS -->
-    <div id="green-column">
-      <h3>From today's featured article</h3>
-      <p><a href="#">Kona Lanes</a> was a 40-lane <a href="#">bowling</a> center in <a href="#">Costa Mesa, California</a>, that closed in 2003 after 45 years in business. Built during the advent of <a href="#">Googie architecture</a>, its Polynesian <a href="#">Tiki</a>-themed styling extended from the large roadside <a href="#">neon sign</a> to what the Los Angeles Times called the building's "flamboyant neon lights and ostentatious rooflines meant to attract motorists like moths". At its peak, Kona Lanes was open 24 hours a day, averaging more than 80 ten-frame games of bowling on each of its 40 lanes. The center also hosted music concerts and other events. Following years of decline, Kona Lanes closed and was torn down in 2003; a portion of the distinctive sign (pictured) was saved and sent to <a href="#">Cincinnati, Ohio</a>, for display in the <a href="#">American Sign Museum</a>. Plans for a department store on the Kona Lanes site were rejected; in 2010, the still-unused land was <a href="#">rezoned</a> for <a href="#">senior citizens'</a> apartments and commercial development. Construction on the apartment complex began in 2013 after the lot had sat empty for ten years.(<a href="#">Full article...</a>)</p>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Welcome to <a href="#">Wikipedia</a> </h1>
+            <p>the <a href="#">free encyclopedia</a> that <a href="#">anyone can edit.</a>
+            </p>
+            <p><a href="#">5,388,425</a> articles in <a href="#">English</a>
+            </p>
+          <ul>
+            <li><a href="#">Arts</a></li>
+            <li><a href="#">Biography</a></li>
+            <li><a href="#">Geography</a></li>
+            <li><a href="#">History</a></li>
+            <li><a href="#">Mathematics</a></li>
+            <li><a href="#">Science</a></li>
+            <li><a href="#">Society</a></li>
+            <li><a href="#">Technology</a></li>
+            <li><a href="#">All portals</a></li>
+          </ul>
+        </div>
+      </div>
+<!-- START BODY ROWS THAT ENCOMPASS THE RED AND GREEN COLUMNS -->
+      <div class="row">
+  <!-- BODY COLUMNS -->
+  <!-- START GREEN COLUMN -->
+        <div class="bg-success">
+          <div class="col-md-6">
+            <div class="panel-heading">
+              <h3 class="panel-title">From today's featured article</h3>
+            </div>
+            <div class="panel-body">
+              <p><a href="#">Kona Lanes</a> was a 40-lane <a href="#">bowling</a> center in <a href="#">Costa Mesa, California</a>, that closed in 2003 after 45 years in business. Built during the advent of <a href="#">Googie architecture</a>, its Polynesian <a href="#">Tiki</a>-themed styling extended from the large roadside <a href="#">neon sign</a> to what the Los Angeles Times called the building's "flamboyant neon lights and ostentatious rooflines meant to attract motorists like moths". At its peak, Kona Lanes was open 24 hours a day, averaging more than 80 ten-frame games of bowling on each of its 40 lanes. The center also hosted music concerts and other events. Following years of decline, Kona Lanes closed and was torn down in 2003; a portion of the distinctive sign (pictured) was saved and sent to <a href="#">Cincinnati, Ohio</a>, for display in the <a href="#">American Sign Museum</a>. Plans for a department store on the Kona Lanes site were rejected; in 2010, the still-unused land was <a href="#">rezoned</a> for <a href="#">senior citizens'</a> apartments and commercial development. Construction on the apartment complex began in 2013 after the lot had sat empty for ten years.(<a href="#">Full article...</a>)</p>
+            </div>
 
-      <h3>Did you know...<h3>
-      <ul>
-        <li>... that <a href="#">Hannibal</a> sacked the Iberian settlement within the site of <a href="#">Sagunto Castle</a> (pictured), an action that led to the <a href="#">Second Punic War</a>?</li>
-        <li>... that the <a href="#">Hopkins County Museum and Heritage Park</a> includes the Atkins House, the oldest brick building in <a href="#">Hopkins County, Texas</a>?</li>
-        <li>... that <a href="#">Call of Duty: Modern Warfare Remastered</a> was the first <a href="#">Call of Duty</a> game to have accurate bullet casings ejected from every gun?</li>
-        <li>... that microbiologist <a href="#">Jane Gibson</a> established through her 1954 discovery that <a href="#">selenium</a>, a <a href="#">trace element</a>, is essential for <a href="#">coliform bacterial</a> growth?</li>
-        <li>... that <a href="#">Abu Omar</a> returned home after the <a href="#">Battle of Aleppo</a> to find that only 13 of his 30 vintage cars remained?</li>
-        <li>... that <a href="#">Ilse Hess</a>, who was one of the first women to study at the <a href="#">University of Munich</a>, remained a committed <a href="#">Nazi</a> after World War II?</li>
-        <li>... that "<a href="#">When in Rome, do as the Romans do</a>" means that it is advisable to follow the conventions of the area in which you are residing or visiting?</li>
-        <li>... that <a href="#">Elder Charles D. Beck</a>'s <a href="#">boogie-woogie</a>-based piano playing on "Memphis Flu" anticipated the style of <a href="#">rock and roll</a> pianists?</li>
-      </ul>
-    </div>
-    <div id="red-column">
-      <h3>In the news</h3>
-      <ul>
-        <li>Three people are killed as at least <a href="#">1.2 million Venezuelans march</a> in <a href="#">anti-government protests</a>.</li>
-        <li>Turkey votes in favour of changing the <a href="#">parliamentary system</a> of government to an executive presidency in a <a href="#">constitutional referendum</a>.</li>
-        <li><a href="#">A suicide bombing</a> of civilian evacuation buses near <a href="#">Aleppo</a>, Syria, kills more than 120 people, including 68 children.</li>
-        <li><a href="#">Emma Morano</a>, the last living person born before 1900, dies at the age of 117.</li>
-        <li><a href="#">Pakistan</a> sentences former <a href="#">Indian</a> naval officer <a href="#">Kulbhushan Jadhav</a> to death for <a href="#">espionage and sabotage</a>.</li>
-      </ul>
-      <p><a href="#"><strong>Ongoing</strong></a>: <a href="#">Battle of Mosul</a></p>
-      <p><a href="#"><strong>Recent deaths</strong></a>: <a href="#">Aaron Hernandez</a> <a href="#">Rosey</a><a href="#">Allan Holdsworth</a></p>
-      <h3>On this day...</h3>
-      <p><a href="#"><strong>April 20</strong></a>: <a href="#"><strong>Ridván</strong></a> begins at sunset (<a href="#">Bahá'í Faith)</a>; <a href="#"><strong>4/20</strong></a> (<a href="#">cannabis culture</a>)</p>
-      <ul>
-        <li><a href="#">1537</a> – <a href="#"><strong>Bacatá</strong></a>, the main settlement of the <a href="#">Muisca Confederation</a>, was conquered by <a href="#">Gonzalo Jiménez de Quesada</a> during the <a href="#">Spanish conquest of the Muisca</a>, effectively ending the Confederation in the <a href="#">Colombian Eastern Andes</a>.</li>
-        <li><a href="#">1809</a> – <a href="#">War of the Fifth Coalition</a>: <a href="#">Napoleon</a> led a Franco-German force to victory over a reinforced Austrian corps in the <a href="#"><strong>Battle of Abensberg</strong></a>.</li>
-        <li><a href="#">1939</a> – <a href="#">Adolf Hitler</a>'s <a href="#"><strong>50th birthday</strong></a> was celebrated as a national holiday in <a href="#">Nazi Germany</a>.</li>
-        <li><a href="#">1968</a> – British <a href="#">Member of Parliament</a> <a href="#">Enoch Powell</a> (pictured) made his controversial <a href="#"><strong>"Rivers of Blood" speech</strong></a> in opposition to <a href="#">immigration</a> and anti-<a href="#">discrimination</a> legislation, resulting in his removal from the <a href="#">Shadow Cabinet</a>.</li>
-        <li><a href="#">2010</a> – <a href="#"><strong>An explosion</strong></a> on <a href="#">Deepwater Horizon</a>, an offshore <a href="#">oil rig</a> in the <a href="#">Gulf of Mexico</a>, caused the <a href="#"><strong>largest accidental marine oil spill</strong></a> in the history of the <a href="#">petroleum industry</a>.</li>
-      </ul>
-    </div>
-    <!--Purple column-->
-    <div id="purple-column"
+            <div class="panel-heading">
+              <h3 class="panel-title">Did you know...<h3 class="panel-title">
+            </div>
+            <div class="panel-body">
+              <ul>
+                <li>... that <a href="#">Hannibal</a> sacked the Iberian settlement within the site of <a href="#">Sagunto Castle</a> (pictured), an action that led to the <a href="#">Second Punic War</a>?</li>
+                <li>... that the <a href="#">Hopkins County Museum and Heritage Park</a> includes the Atkins House, the oldest brick building in <a href="#">Hopkins County, Texas</a>?</li>
+                <li>... that <a href="#">Call of Duty: Modern Warfare Remastered</a> was the first <a href="#">Call of Duty</a> game to have accurate bullet casings ejected from every gun?</li>
+                <li>... that microbiologist <a href="#">Jane Gibson</a> established through her 1954 discovery that <a href="#">selenium</a>, a <a href="#">trace element</a>, is essential for <a href="#">coliform bacterial</a> growth?</li>
+                <li>... that <a href="#">Abu Omar</a> returned home after the <a href="#">Battle of Aleppo</a> to find that only 13 of his 30 vintage cars remained?</li>
+                <li>... that <a href="#">Ilse Hess</a>, who was one of the first women to study at the <a href="#">University of Munich</a>, remained a committed <a href="#">Nazi</a> after World War II?</li>
+                <li>... that "<a href="#">When in Rome, do as the Romans do</a>" means that it is advisable to follow the conventions of the area in which you are residing or visiting?</li>
+                <li>... that <a href="#">Elder Charles D. Beck</a>'s <a href="#">boogie-woogie</a>-based piano playing on "Memphis Flu" anticipated the style of <a href="#">rock and roll</a> pianists?</li>
+              </ul>
+            </div>
+          </div>
+        </div> <!-- END GREEN COLUMN-->
+        <div class="bg-success">
+          <h3 class="panel-title">In the news</h3>
+          <ul>
+            <li>Three people are killed as at least <a href="#">1.2 million Venezuelans march</a> in <a href="#">anti-government protests</a>.</li>
+            <li>Turkey votes in favour of changing the <a href="#">parliamentary system</a> of government to an executive presidency in a <a href="#">constitutional referendum</a>.</li>
+            <li><a href="#">A suicide bombing</a> of civilian evacuation buses near <a href="#">Aleppo</a>, Syria, kills more than 120 people, including 68 children.</li>
+            <li><a href="#">Emma Morano</a>, the last living person born before 1900, dies at the age of 117.</li>
+            <li><a href="#">Pakistan</a> sentences former <a href="#">Indian</a> naval officer <a href="#">Kulbhushan Jadhav</a> to death for <a href="#">espionage and sabotage</a>.</li>
+          </ul>
 
+          <p><a href="#"><strong>Ongoing</strong></a>: <a href="#">Battle of Mosul</a></p>
+          <p><a href="#"><strong>Recent deaths</strong></a>: <a href="#">Aaron Hernandez</a> <a href="#">Rosey</a><a href="#">Allan Holdsworth</a></p>
+          <h3 class="panel-title">On this day...</h3>
+          <p><a href="#"><strong>April 20</strong></a>: <a href="#"><strong>Ridván</strong></a> begins at sunset (<a href="#">Bahá'í Faith)</a>; <a href="#"><strong>4/20</strong></a> (<a href="#">cannabis culture</a>)</p>
+
+          <ul>
+            <li><a href="#">1537</a> – <a href="#"><strong>Bacatá</strong></a>, the main settlement of the <a href="#">Muisca Confederation</a>, was conquered by <a href="#">Gonzalo Jiménez de Quesada</a> during the <a href="#">Spanish conquest of the Muisca</a>, effectively ending the Confederation in the <a href="#">Colombian Eastern Andes</a>.</li>
+            <li><a href="#">1809</a> – <a href="#">War of the Fifth Coalition</a>: <a href="#">Napoleon</a> led a Franco-German force to victory over a reinforced Austrian corps in the <a href="#"><strong>Battle of Abensberg</strong></a>.</li>
+            <li><a href="#">1939</a> – <a href="#">Adolf Hitler</a>'s <a href="#"><strong>50th birthday</strong></a> was celebrated as a national holiday in <a href="#">Nazi Germany</a>.</li>
+            <li><a href="#">1968</a> – British <a href="#">Member of Parliament</a> <a href="#">Enoch Powell</a> (pictured) made his controversial <a href="#"><strong>"Rivers of Blood" speech</strong></a> in opposition to <a href="#">immigration</a> and anti-<a href="#">discrimination</a> legislation, resulting in his removal from the <a href="#">Shadow Cabinet</a>.</li>
+            <li><a href="#">2010</a> – <a href="#"><strong>An explosion</strong></a> on <a href="#">Deepwater Horizon</a>, an offshore <a href="#">oil rig</a> in the <a href="#">Gulf of Mexico</a>, caused the <a href="#"><strong>largest accidental marine oil spill</strong></a> in the history of the <a href="#">petroleum industry</a>.</li>
+          </ul>
+        </div><!-- END RED COLUMN-->
+      </div>
+      <!--Purple column-->
+        <div id="purple-column">
+          <h3 class="panel-title">Today's featured picture</h3>
+          <img src="img/purple-painting.jpg" alt="Girl with a Pearl Earring">
+          <p><a href="#"><strong>Girl with a Pearl Earring</strong></a> is an <a href="#">oil painting</a> by 17th-century Dutch painter <a href="#">Johannes Vermeer</a>. This <a href="#">tronie</a> depicts a girl in an exotic dress, an oriental <a href="#">turban</a>, and a pearl earring. The painting has been in the collection of the <a href="#">Mauritshuis</a> in <a href="#">The Hague</a> since 1902.</p>
+          <p>Painting: <a href="#">Johannes Vermeer</a></p>
+          <p>Recently featured: <a href="#">Cassiopeia</a> <a href="#">Allie Mae Burroughs</a> <a href="#">Point Lobos</a>
+            <a href="#"><strong>Archive</strong></a> <a href="#"><strong>More featured pictures...</strong></a></p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
