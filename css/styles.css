@@ -3,6 +3,11 @@
    list-style: none;
 }
 
+.left-navbar li:not(a) {
+  border-bottom: 1px solid black;
+
+}
+
 .row:first-child {
   background-color: ;
 }
